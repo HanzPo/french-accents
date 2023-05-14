@@ -30,6 +30,7 @@ main {
 
 .characters:active {
     background-color: rgb(74, 74, 74);
+    transform: translateY(2px);
 }
 
 footer {
