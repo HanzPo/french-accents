@@ -4,6 +4,10 @@ body {
     justify-content: center;
 }
 
+main {
+    min-height: 90vh;
+}
+
 .flex-container {
     color: #fff;
     padding: 0 0;
@@ -26,6 +30,11 @@ body {
 
 .characters:active {
     background-color: rgb(74, 74, 74);
+}
+
+footer {
+    margin-top: auto;
+    font-size: 10px;
 }
 
 #snackbar {
