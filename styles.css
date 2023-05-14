@@ -5,7 +5,7 @@ body {
 }
 
 main {
-    min-height: 90vh;
+    min-height: 95vh;
 }
 
 .flex-container {
@@ -36,6 +36,8 @@ main {
 footer {
     margin-top: auto;
     font-size: 10px;
+    margin-bottom: -10px;
+    padding: 0 0;
 }
 
 #snackbar {
