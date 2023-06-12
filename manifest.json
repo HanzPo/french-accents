@@ -1,0 +1,11 @@
+{
+    "name": "French Accents",
+    "version": "0.0.1",
+    "description": "Easily copy and paste french characters with accents",
+    "manifest_version": 3,
+    "author": "Hanz Po",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "French Accents"
+    }
+}

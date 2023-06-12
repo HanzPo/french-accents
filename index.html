@@ -13,6 +13,7 @@
         <meta property="og:description" name="description" content="Quickly copy french letters containing accents, without having to look up alt codes or copying and pasting from Google.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
+        <script src="app.js" async defer></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -20,11 +21,10 @@
         <![endif]-->
         
         <main>
-            <h1>French Letters with Accents</h1>
             <p>Click on a letter to copy it to your clipboard</p>
 
             <div id="buttons" class="flex-container">
-                <button class="characters" onclick="copyCharacter('à')">à</button>
+                <button class="characters" id="à">à</button>
                 <button class="characters" onclick="copyCharacter('â')">â</button>
                 <button class="characters" onclick="copyCharacter('ç')">ç</button>
                 <button class="characters" onclick="copyCharacter('é')">é</button>
@@ -45,6 +45,6 @@
 
         <div id="snackbar">Copied!</div>
 
-        <script src="app.js" async defer></script>
+        
     </body>
 </html>
