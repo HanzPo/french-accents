@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -13,38 +9,31 @@
         <meta property="og:description" name="description" content="Quickly copy french letters containing accents, without having to look up alt codes or copying and pasting from Google.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
-        <script src="app.js" async defer></script>
+        <script src="src/index.js" async defer></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
         <main>
-            <p>Click on a letter to copy it to your clipboard</p>
+            <p>Cliquez sur une lettre pour la copier dans votre presse-papiers / Click on a letter to copy it to your clipboard</p>
 
             <div id="buttons" class="flex-container">
-                <button class="characters" id="à">à</button>
-                <button class="characters" onclick="copyCharacter('â')">â</button>
-                <button class="characters" onclick="copyCharacter('ç')">ç</button>
-                <button class="characters" onclick="copyCharacter('é')">é</button>
-                <button class="characters" onclick="copyCharacter('è')">è</button>
-                <button class="characters" onclick="copyCharacter('ê')">ê</button>
-                <button class="characters" onclick="copyCharacter('ë')">ë</button>
-                <button class="characters" onclick="copyCharacter('ï')">ï</button>
-                <button class="characters" onclick="copyCharacter('î')">î</button>
-                <button class="characters" onclick="copyCharacter('ô')">ô</button>
-                <button class="characters" onclick="copyCharacter('œ')">œ</button>
-                <button class="characters" onclick="copyCharacter('ù')">ù</button>
-                <button class="characters" onclick="copyCharacter('û')">û</button>
-                <button class="characters" onclick="copyCharacter('ü')">ü</button>
+                <button class="characters" id="letter-1">à</button>
+                <button class="characters" id="letter-2">â</button>
+                <button class="characters" id="letter-3">ç</button>
+                <button class="characters" id="letter-4">é</button>
+                <button class="characters" id="letter-5">è</button>
+                <button class="characters" id="letter-6">ê</button>
+                <button class="characters" id="letter-7">ë</button>
+                <button class="characters" id="letter-8">ï</button>
+                <button class="characters" id="letter-9">î</button>
+                <button class="characters" id="letter-10">ô</button>
+                <button class="characters" id="letter-11">œ</button>
+                <button class="characters" id="letter-12">ù</button>
+                <button class="characters" id="letter-13">û</button>
+                <button class="characters" id="letter-14">ü</button>
             </div>
         </main>
 
         <footer>Created by Hanz Po. <a href="https://github.com/hanzpo">Github</a></footer>
-
-        <div id="snackbar">Copied!</div>
-
         
     </body>
 </html>
